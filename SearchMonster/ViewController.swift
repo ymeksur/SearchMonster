@@ -193,7 +193,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if isLoading {
             return tableView.frame.height
         } else {
-            return view.frame.height/10
+            return 100
         }
     }
     
